@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(2, 195, 243);
+    background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top -500px left -250px, bottom -700px right -250px;
+}
+
+#card {
+    width: 22%;
+    border-radius: 15px;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: repeat-x;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.under-white {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+h3 {
+    color: rgb(56, 56, 56);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3px;
+}
+
+span {
+    color: rgb(112, 112, 112);
+    margin-left: 6px;
+}
+
+p {
+    color: rgb(100, 100, 100);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+.numbers {
+    display: inline-flex;
+}
+
+.numbers p {
+    font-size: small;
+}
+.one {
+    padding: 0 20px;
+}
+
+.two {
+    padding: 0 20px;
+}
+
+.three {
+    padding: 0 20px;
+}
